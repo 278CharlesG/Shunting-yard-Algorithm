@@ -21,5 +21,5 @@ This is a classic Python implementation of the **Shunting-yard Algorithm**. Inve
 ##  Usage Instructions
 Run the Python script in your terminal or command line.The program will expect a standard input rule from the user:
 
-**Numbers, operators, and parentheses must be separated by spaces, for example, " 1 + 2 * ( 2 ^ 3 ) " **
+**Numbers, operators, and parentheses must be separated by spaces, for example, " 1 + 2 * ( 2 ^ 3 ) "**
 
