@@ -16,20 +16,10 @@ This is a classic Python implementation of the **Shunting-yard Algorithm**. Inve
 5. **Final Cleanup**: After reading the entire expression, any operators remaining on the `stack` are popped and appended to the `output` in order.
 
 ##  Environment
-
 - Python 3.x or higher
-- No third-party library dependencies required
 
 ##  Usage Instructions
+Run the Python script in your terminal or command line.The program will expect a standard input rule from the user:
 
-Run the Python script in your terminal or command line. When executed, the program will expect two lines of input from the user:
+**Numbers, operators, and parentheses must be separated by spaces, for example, " 1 + 2 * ( 2 ^ 3 ) " **
 
-1. **First line**: An integer representing the total number of tokens (elements) in the expression.
-2. **Second line**: The actual mathematical expression. **Note: Numbers, operators, and parentheses must be separated by spaces.**
-
-### Execution Example
-
-Assuming your script is named `shunting_yard.py`:
-
-```bash
-python shunting_yard.py
